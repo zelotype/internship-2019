@@ -1,8 +1,13 @@
 """Hangman - The Internship 2019"""
+
 import random
+
 def main():
-    category = {'1':'BNK48', '2':'Twice', '3':'CutePet'}
-    print("Select Category: \nBNK48 \nTwice \nCute Pet \n ")
+    """Main process"""
+    category = {'1':'BNK48', '2':'Twice', '3':'Animal'}
+
+    print("Select Category: \nBNK48 \nTwice \nAnimal \n ")
+
     selected = category[input("> ")]
 
     target, hint = random_word(selected)
@@ -11,8 +16,10 @@ def main():
 
     score = 0
     g_num = 10
+
     guessed_wrong = ""
     guessed_true = ""
+
     check = False
 
     cal_sc = calculate_score(target)
@@ -40,7 +47,7 @@ def main():
         if g_num == 0 or check:
             break
         
-        ans = (input("\n>"))
+        ans = input("\n>")
 
         g_num -= 1
 
@@ -62,8 +69,10 @@ def main():
 
 
 def random_word(category):
+    """Random word from category that player choose"""
     filename = category + ".txt"
     file = open(filename, "r")
+
     words = list()
     hint = list()
 
@@ -81,6 +90,7 @@ def random_word(category):
     return target
 
 def calculate_score(word):
+    """calculate score for guess word"""
 
     word_no_sign = 0
 
