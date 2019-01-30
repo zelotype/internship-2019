@@ -3,7 +3,7 @@
 
 ภาษาที่ใช้ในการพัฒนา: **Python version 3.7.2**<br>
 
-## library ที่นำมาช่วย
+## Library ที่นำมาช่วย
 * **xmltodict** <br>
 https://github.com/martinblech/xmltodict<br>
 
