@@ -8,8 +8,8 @@
 https://github.com/martinblech/xmltodict<br>
 
 
-## วิธี Compile
-สามารถ compile โปรแกรมได้ผ่าน **Command Prompt** หรือ **Terminal** โดยใส่
+## วิธี Run
+สามารถ run โปรแกรมได้ผ่าน **Command Prompt** หรือ **Terminal** โดยใส่
 ```
     python weather.py [XML file]
 ```
