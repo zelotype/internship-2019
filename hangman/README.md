@@ -3,8 +3,8 @@
 
 ภาษาที่ใช้ในการพัฒนา: Python version 3.7.2<br>
 
-## วิธี Compile
-สามารถ compile โปรแกรมได้ผ่าน Command Prompt หรือ Terminal โดยใส่
+## วิธี Run
+สามารถ run โปรแกรมได้ผ่าน Command Prompt หรือ Terminal โดยใส่
 ```
     python hangman.py
 ```
