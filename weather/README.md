@@ -6,6 +6,10 @@
 ## Library ที่นำมาช่วย
 * **xmltodict** <br>
 https://github.com/martinblech/xmltodict<br>
+ก่อนรันโปรแกรมต้องลง library ก่อนจึงจะสามารถรันได้ โดยใส่
+```
+    pip install xmltodict
+```
 
 
 ## วิธี Run
@@ -13,6 +17,12 @@ https://github.com/martinblech/xmltodict<br>
 ```
     python weather.py [XML file]
 ```
+
+## Reference
+* **XML to JSON**<br>
+http://tripsintech.com/xml-to-json-python-script-also-json-to-xml/<br>
+
+## Developer
 ชื่อ-สกุล: นางสาวกวิสรา  บัณเย็น<br>
 อีเมล: zelotype.3@gmail.com<br>
 เบอร์โทรศัพท์: 096-268-6073
