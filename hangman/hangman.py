@@ -29,7 +29,7 @@ def random_word(category):
 
 def calculate_score(word):
     """
-        Calculate score from the answer for 100 score.
+        Calculate score from the answer for 100 scores.
         solution: Number of the answer(count alphabet only) divided by 100
     """
 
@@ -106,6 +106,9 @@ def show_guess_wrong_case(num_of_guess, guessed_wrong):
             print("\n", end="")
 
 if __name__ == '__main__':
+    """
+        Display rules, Call all function and Check category input from player.
+    """
     category = {1:'BNK48', 2:'Twice', 3:'Animal'}
 
     print("---------------Hangman Game---------------")
